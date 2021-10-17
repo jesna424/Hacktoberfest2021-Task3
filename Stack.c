@@ -84,8 +84,7 @@ int main()
         {
         case 1:
             {
-                push(ele);
-                break;
+                push(ele);break;
             }
         case 2:
             {
@@ -97,8 +96,7 @@ int main()
             }
         case 4:
             {
-                display();
-                break;
+                display();break;
             }
         case 5:
             {
@@ -107,7 +105,6 @@ int main()
         default:
             printf("\nEnter a correct choice (1,2,3,4,5)");
         }
-    }
-    while(choice=5);
+    }while(choice=5);
     return 0;
 }
